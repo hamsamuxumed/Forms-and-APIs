@@ -1,0 +1,28 @@
+{
+  "name": "forms_api",
+  "version": "1.0.0",
+  "description": "celebration card generator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamsamuxumed/Forms-and-APIs.git"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamsamuxumed/Forms-and-APIs/issues"
+  },
+  "homepage": "https://github.com/hamsamuxumed/Forms-and-APIs#readme",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
