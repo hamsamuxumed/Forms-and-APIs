@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="card.css">
 </head>
 <body>
-    <form action="card.html">
+    <form id="cardForm" action="">
         <label for="greeting">Greeting</label>
-        <input type="text" id="greeting" placeholder="greeting">
+        <input type="text" id="greeting" name="greeting" placeholder="greeting">
         <label for="event">Type of events:</label>
         <select id="event" name="event">
             <option value="Birthday">Birthday</option>
@@ -19,8 +20,17 @@
         </select>
         <label for="message">Message</label>
         <input type="text" id="message" placeholder="Enter Message">
-        <input type="submit" value="Enter greeting">
+        <input id="formSubmit" type="submit" value="Enter greeting">
     </form>
+
+    <div class="card">
+        <div class="container">
+            <h4><b>Greeting- </b></h4>
+            <p id="eventOutput">Type of event: </p>
+            <p id="messageOutput">Message: </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
